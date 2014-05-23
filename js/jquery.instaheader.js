@@ -431,7 +431,7 @@
 
                         // element stays active
                         $out.data( 'active', true );
-                        $inA = $('<a href="" rel="'+i.key+'" ></a>');
+                        $inA = $('<a href="'+i.link+'" rel="'+i.key+'" ></a>');
                         // prepend in element
                         $inA.css( newElProp ).prependTo( $out );
 
